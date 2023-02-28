@@ -1,9 +1,9 @@
 # Maven package Java project Web App to Linux on Azure
-- task: Maven@4
-  inputs:
-    mavenPomFile: 'app/pom.xml'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+#- task: Maven@4
+#  inputs:
+#    mavenPomFile: 'app/pom.xml'
+#    publishJUnitResults: true
+#    testResultsFiles: '**/surefire-reports/TEST-*.xml'
 
 trigger:
 - master
